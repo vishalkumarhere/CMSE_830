@@ -4,3 +4,4 @@ pandas
 sklearn 
 altair 
 scikit-learn
+plotly
