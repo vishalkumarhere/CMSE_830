@@ -3,6 +3,5 @@ pandas
 seaborn 
 plotly
 scikit-learn
-sklearn 
 streamlit 
 altair
