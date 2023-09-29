@@ -1,7 +1,8 @@
-streamlit 
+numpy
+pandas
 seaborn 
-pandas 
-sklearn 
-altair 
-scikit-learn
 plotly
+scikit-learn
+sklearn 
+streamlit 
+altair
