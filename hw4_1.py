@@ -10,7 +10,7 @@ def load_data():
                "relationship", "race", "sex", "capital_gain", "capital_loss", "hours_per_week", "native_country", "income"]
     return pd.read_csv(url, names=columns, sep=",\s*", engine="python")
 
-data = load_data()
+df_adult = load_data()
 
 # Set the title and description for the web app
 st.title("Exploring the Adult Dataset")
