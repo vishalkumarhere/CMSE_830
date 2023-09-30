@@ -1,6 +1,6 @@
-import streamlit as st
+import numpy as np
 import pandas as pd
-import seaborn as sns
+import streamlit as st
 
 # Load the "adult" dataset from an online source
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
