@@ -1,16 +1,11 @@
+# Import necessary libraries
 import streamlit as st
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the "adult" dataset from Seaborn
-def load_data():
-    url = "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
-    columns = ["age", "workclass", "fnlwgt", "education", "education_num", "marital_status", "occupation",
-               "relationship", "race", "sex", "capital_gain", "capital_loss", "hours_per_week", "native_country", "income"]
-    return pd.read_csv(url, names=columns, sep=",\s*", engine="python")
-
-df_adult = load_data()
+df_adult = sns.load_dataset("adult")
 
 # Set the title and description for the web app
 st.title("Exploring the Adult Dataset")
